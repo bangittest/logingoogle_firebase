@@ -1,0 +1,92 @@
+display: flex;
+  justify-content: center;
+  align-items: center;
+1.background: Thiết lập hình nền cho một phần tử HTML, bao gồm cả màu sắc, hình ảnh và độ mờ: background: #ffffff url("background.jpg") no-repeat top left fixed;
+
+2.background-color: Đặt màu nền cho một phần tử HTML: background-color: #ffffff;
+
+3.background-image: Thiết lập hình ảnh nền cho một phần tử HTML: background-image: url("background.jpg");
+
+4.background-repeat: Xác định cách thức lặp lại hình ảnh nền: background-repeat: no-repeat;
+
+5.background-position: Xác định vị trí xuất hiện của hình ảnh nền: background-position: top left;
+
+6.background-attachment: Xác định hình ảnh nền có cuộn cùng trang hay không: background-attachment: fixed;
+
+7.color: Đặt màu chữ cho một phần tử HTML: color: #000000;
+
+8.font-family: Thiết lập kiểu font chữ cho một phần tử HTML: font-family: Arial, sans-serif;
+
+9.font-size: Thiết lập kích thước font chữ cho một phần tử HTML: font-size: 16px;
+
+10.font-weight: Thiết lập độ dày của font chữ cho một phần tử HTML: font-weight: bold;
+
+11.text-align: Canh lề văn bản trong một phần tử HTML: text-align: center;
+
+12.text-decoration: Thiết lập kiểu gạch chân, gạch ngang hoặc gạch trên cho văn bản: text-decoration: underline;
+
+13.text-transform: Chuyển đổi chữ hoa thành chữ thường hoặc ngược lại: text-transform: uppercase;
+
+14.text-shadow: Tạo hiệu ứng bóng cho văn bản: text-shadow: 1px 1px #000000;
+
+15.line-height: Thiết lập khoảng cách giữa các dòng trong văn bản: line-height: 1.5;
+
+16.letter-spacing: Thiết lập khoảng cách giữa các chữ cái trong văn bản: letter-spacing: 1px;
+
+17.word-spacing: Thiết lập khoảng cách giữa các từ trong văn bản: word-spacing: 2px;
+
+18.padding: Tạo khoảng trống bên trong một phần tử HTML: padding: 10px;
+
+19.margin: Tạo khoảng trống bên ngoài một phần tử HTML: margin: 10px;
+
+20.border: Tạo đường viền cho một phần tử HTML: border: 1px solid #000000;
+
+21.border-radius: Tạo góc bo tròn cho các đường viền của một phần tử HTML: border-radius: 5px;
+
+22.box-shadow: Tạo hiệu ứng bóng cho một phần tử HTML: box-shadow: 0 0 5px #888888;
+
+23.width: Thiết lập chiều rộng của một phần tử HTML: width: 100%;
+
+24.height: Thiết lập chiều cao của một phần tử HTML: height: 200px;
+
+25.max-width: Thiết lập chiều rộng tối đa của một phần tử HTML: max-width: 1000px;
+
+26.max-height: Thiết lập chiều cao tối đa của một phần tử HTML: max-height: 500px;
+
+27.overflow: Xác định cách hiển thị nội dung của một phần tử HTML khivượt quá kích thước của nó: overflow: hidden;
+
+28.display: Xác định cách hiển thị của một phần tử HTML: display: block;
+
+29.float: Đặt vị trí của một phần tử HTML: float: left;
+
+30.position: Xác định vị trí của một phần tử HTML: position: absolute;
+
+31.top, bottom, left, right: Xác định vị trí của một phần tử HTML so với phần tử cha của nó: top: 10px;
+
+32.z-index: Đặt độ ưu tiên của một phần tử HTML trong không gian 3 chiều: z-index: 1;
+
+33.opacity: Đặt độ mờ của một phần tử HTML: opacity: 0.5;
+
+34.visibility: Ẩn hoặc hiển thị một phần tử HTML: visibility: hidden;
+
+35.transition: Tạo hiệu ứng chuyển động cho một phần tử HTML: transition: all 0.3s ease;
+
+36.transform: Thay đổi hình dạng hoặc vị trí của một phần tử HTML: transform: rotate(45deg);
+
+37.cursor: Thiết lập kiểu con trỏ khi rê chuột qua một phần tử HTML: cursor: pointer;
+
+38.list-style: Thiết lập kiểu danh sách cho một phần tử HTML: list-style: none;
+
+39.outline: Tạo đường viền bên ngoài cho một phần tử HTML: outline: 1px solid #000000;
+
+40.box-sizing: Xác định cách tính toán kích thước của một phần tử HTML: box-sizing: border-box;
+
+41.text-overflow: Xác định cách xử lý văn bản khi nội dung của nó quá dài: text-overflow: ellipsis;
+
+42.white-space: Xác định cách xử lý khoảng trống và dấu xuống dòng trong văn bản: white-space: nowrap;
+
+43.user-select: Xác định khả năng chọn văn bản trong một phần tử HTML: user-select: none;
+
+44.filter: Tạo hiệu ứng lọc cho một phần tử HTML: filter: blur(5px);
+
+45.backface-visibility: Xác định khả năng nhìn thấy mặt sau của một phần tử HTML được quay: backface-visibility: hidden;

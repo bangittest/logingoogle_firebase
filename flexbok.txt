@@ -1,0 +1,59 @@
+display flex đẩy từ hàng dọc lên hàng ngang không đều
+justify-content: flex-end; căn cuối góc phải phía top
+
+display flex
+justify-content: center; căn đều chính giữa top
+
+display flex
+justify-content: space-around; căn đều ra giữa top cách gap hẹp
+
+display flex
+justify-content: space-between; căn đều giữa top gap rộng 
+
+display flex
+align-items: flex-end; đẩy từ hàng ngang đầu xuống hàng ngang cuối
+
+display:flex;
+justify-content: center;
+align-items: center; bộ 3 căn chính giữa hộp
+
+display:flex;
+justify-content: space-around;
+align-items: flex-end; bộ 3 đẩy lên trên căn đều hàng ngang hẹp đẩy xuống bottom dưới
+
+display:flex;
+flex-direction: row-reverse; lật ngược phần tử đầu cuối rồi về góc phải top
+
+display:flex;
+flex-direction: column; xếp hàng dọc từ trên xuống sát bên trái
+
+display flex
+flex-direction: row-reverse;lật ngược lại phần tử đầu cuối
+justify-content: flex-end; trở lại vị trí display
+
+display flex 
+flex-direction: column; xếp dọc thẳng hàng
+justify-content: flex-end; đẩy xuống cuối
+
+
+flex-direction: row-reverse;lật ngược vị trí đầu cuối 
+justify-content: center;căn chính giữa hàng đầu
+align-items: flex-end; từ trên top xuống dưới chân bottom
+
+display flex
+flex-wrap: wrap; dàn đều hàng từ trên xuống
+
+display flex
+flex-direction: column;
+flex-wrap: wrap; bộ ba dàn đều từ hàng ngang xuống hàng dọc đều
+
+
+/* PC */
+        
+        @media(min-with:1024px) {}
+        /* ipad */
+        
+        @media(min-with:740px) {}
+        /* moblile */
+        
+        @media(max-with:740px) {}

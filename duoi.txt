@@ -1,0 +1,27 @@
+.parent-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+display flex
+justifi conten:end
+align-items:center
+flex-direction:colum;
+can duoi deu
+flex-direction: Xác định hướng của các phần tử con. Có 4 giá trị để chọn: row, row-reverse, column, column-reverse.
+
+flex-wrap: Xác định xem các phần tử con có được bọc xuống dòng mới khi không đủ không gian hay không. Có 3 giá trị để chọn: nowrap, wrap, wrap-reverse.
+
+justify-content: Xác định cách các phần tử con được căn chỉnh trên trục chính. Có 5 giá trị để chọn: flex-start, flex-end, center, space-between, space-around.
+
+align-items: Xác định cách các phần tử con được căn chỉnh trên trục phụ. Có 5 giá trị để chọn: flex-start, flex-end, center, baseline, stretch.
+
+align-content: Xác định cách các dòng của phần tử con được căn chỉnh trên trục phụ. Chỉ có tác dụng khi có nhiều dòng phần tử con. Có 5 giá trị để chọn: flex-start, flex-end, center, space-between, space-around.
+
+flex-grow: Xác định tỉ lệ phần trăm mà các phần tử con sẽ dãn ra trên trục chính khi không đủ không gian.
+
+flex-shrink: Xác định tỉ lệ phần trăm mà các phần tử con sẽ co lại trên trục chính khi không đủ không gian.
+
+flex-basis: Xác định kích thước ban đầu của các phần tử con trên trục chính.
+
+order: Xác định thứ tự hiển thị của các phần tử con.

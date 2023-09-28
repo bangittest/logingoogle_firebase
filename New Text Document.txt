@@ -1,0 +1,325 @@
+những thành phần thường gặp giao diện website
+1 header( đầu trang)
+2 navigation (diều hướng)
+3 breadcurmud 
+4 side bar
+5 slider
+6 baner
+7 content(nội dung chính)
+8 footer( Chân trang)
+
+
+1 hearder
+2 slide
+3 content
+	1 About
+	2 Tour
+	3Contact
+	4Image
+	5 Footer
+4 footer
+
+1.Lệnh margin
+Ta bắt đầu với canh lề
+a.Căn lề 2 bên
+
+.ClassName {   
+margin:20px;
+}  
+
+b. Căn lề dùng lệnh auto:
+
+CODE
+
+.ClassName {   
+margin:20px auto;
+}  
+
+– với lệnh trên, lề trái và phải sẽ tự động được căn giữa, còn lề trên và dưới sẽ được căn lề là 20px.
+
+c. lệnh Margins với 3 giá trị:
+
+CODE
+
+.ClassName {  
+margin:20px auto 50px;
+}  
+
+– với lệnh này lề trên căn lề 20px, lề trái & phải sẽ được tự động căn giữa, lề dưới căn lề 50px.
+
+2.Lệnh Padding:
+
+– Các lệnh căn lề với padding:
+
+CODE
+
+.ClassName {  
+padding-top:10px; // căn lề trên
+padding-right:20px; // căn lề phải  
+padding-bottom:30px; // căn lề dưới
+padding-left:40px; // căn lề trái  
+}
+
+– Để dễ dàng hơn ta có thể viết:
+
+CODE
+
+.ClassName {  
+padding:10px 20px 30px 40px;
+}  
+– Như vậy cấu trúc lênh sẽ là : padding : top right bottom left;
+
+Ta thấy 2 lệnh trên đều là căn lề, vậy chúng có gì khác nhau, chúng ta sẽ nói thêm về điều này:
+
++ margin : khi dùng lệnh này để căn lề thì kích thước của khung nội dung của bạn sẽ được giữ nguyên.
++ padding: với việc căn lề bằng lệnh padding thì kích thước của khung nội dung sẽ bị thay đổi. Lấy ví dụ: khung nội dung của bạn có độ rộng 100px, khi dùng lệnh căn lề trái padding-left:30px; thì khung sẽ bị dịch sang phải 30px, và khi đó độ rộng của khung sẽ được cộng thêm vào là 30px, tức là 130px. Đó chính là mấu chốt khiến các bạn mới làm quen thường bị xảy ra hiện tượng xô lệch do khi dùng padding vì chúng ta padding bao nhiêu thì sẽ + thêm vào chiều rông cũ bấy nhiêu để tạo thành một chiều rộng mới.
+
+3.Background:
+
+– các thuộc tính cơ bản của lệnh như bên dưới:
+
+CODE
+
+.ClassName {  
+background-color: transparent; // làm trong nền trong suốt
+background-image: url(‘image.jpg’); // ảnh nền  
+background-repeat: no-repeat; // thuộc tính lặp lại
+background-position: top right; // vị trí nền  
+background-attachment: scroll; // nền trượt
+}  
+
+– ví dụ như bạn muốn tạo ảnh nền trong suốt, nằm trên cùng bên phải, không lặp lại, và di chuyển theo chuột, ta sẽ có lệnh như bên dưới:
+
+CODE
+
+.ClassName {  
+background: transparent url(‘image.jpg’) no-repeat top right scroll;
+}
+
+4.Lệnh font:
+
+CODE
+
+.ClassName {  
+font-variant:small-caps;
+font-weight:bold;  
+font-size:1em;
+line-height:1.4em;  
+font-family:Georgia, serif;
+}  
+
+5.Lệnh cho list (ul):
+
+CODE
+
+ul {  
+list-style-type:decimal-leading-zero;
+list-style-position:inside;  
+list-style-image: none; // sử dụng ảnh, nếu muốn sử dụng ảnh cho list, bạn chỉ việc thay none bằng url(‘link ảnh’)
+}  
+
+– để đơn giản ta gộp các thuộc tính chung lại, như bên dưới:
+
+CODE
+
+ul {  
+list-style:decimal-leading-zero inside url(‘image.jpg’);
+}  
+
+6.lệnh Border (tạo đừơng viền – đường bao)
+
+CODE
+
+.ClassName {  
+border-width:2px; // độ rộng đường bao
+border-style: solid; // kiểu  
+border-color: #4096EE; // màu
+}  
+
+– đơn giản có thể viết
+
+CODE
+
+.ClassName {  
+border: 2px solid #4096EE; // trị màu : #4069EE có thể thay bằng rgb(64, 150, 238)
+}
+Bạn đã gửi
+7.Outline (tương tự lệnh border)
+
+– ví dụ bên dưới là tạo đương viền cho ảnh
+
+CODE
+
+img {  
+outline-width: 5px;
+outline-style:solid;  
+outline-color: #000000;
+}  
+– đơn giản có thể viết
+
+CODE
+
+img {  
+border: outline: 5px solid #000000;
+}  
+
+8.Lệnh màu :
+
+– có thể sử dụng 1 trong các cách dưới đều được
+
+CODE
+
+.ClassName {  
+color: #FFFFFF;
+}  
+.ClassName {
+color: #FFF;  
+}
+.ClassName {  
+color: #fff;
+}  
+.ClassName {
+color: rgb(255, 255, 255);  
+}
+
+9. Cross browser transparency:
+
+– thiết lập cho từng trình duyệt
+
+CODE
+
+.ClassName {  
+filter:alpha(opacity=50); // trình duyệt IE
+-moz-opacity:0.5; // trình duyệt mozilla  
+-khtml-opacity: 0.5; // trình duyệt Safari
+opacity: 0.5; //  
+}
+10. First-child selectors
+
+– ví dụ bên dưới tạo màu chữ riêng cho lớp đầu tiên của footer (nằm trong thẻ <em>)
+
+CODE
+
+.footer em:first-child {  
+color:#ccc;
+}  
+
+12. First-letter (kí tự đầu tiên)
+
+p:first-letter{
+color:#ff0000;
+font-size:15px;
+}[/CODE]
+
+
+
+
+
+13. First-line
+
+– thiết lập thuộc tính cho dòng đầu tiên
+
+CODE
+
+#p:first-line {  
+color:#ff0000;
+font-weight:bold;  
+}
+
+
+14. Độ cao tối thiểu
+
+CODE
+
+.ClassName {  
+min-height:200px;
+}  
+
+
+
+CODE
+
+.ClassName{  
+min-height:200px;
+height:auto !important;  
+height:200px;
+}  
+
+15. Thuộc tính clip (hiển thị một phần)
+
+– ví dụ ta có code bên dưới:
+
+CODE
+
+img {  
+clip:rect(50px 218px 155px 82px);
+}  
+
+với code này, ảnh sẽ được clip phía trên 50px, bottom là 218px (tính từ trên xuống), right là 155px (tính từ trái qua), left là 82px (cũng tính từ trái qua). xem ví dụ bên dưới để rõ:
+
+
+
+
+
+16. Bo góc:
+
+CODE
+
+.rounded_corner {  
+-moz-border-radius:10px;
+-webkit-border-radius:10px;  
+width:400px;
+height:100px;  
+background-color:#000;
+
+}
+
+17. Drop shadow (tạo bóng đổ)
+CODE
+
+.your_shadow {  
+width:400px;
+height:200px;  
+background-color:#000;
+-webkit-box-shadow: 5px 5px 2px #ccc;  
+}
+
+18. Resize
+
+CODE
+
+.resize{  
+min-width:200px;
+min-height:200px;  
+max-width:500px;
+max-height:400px;  
+resize:both;
+background-color:#ccc;  
+border:2px solid #666;
+overflow:auto;  
+}
+
+19.dùng dấu “,” để gộp chung các class khi có cùng thuộc tính:
+
+ví dụ như bên dưới:
+
+CODE
+h1, h2, h3, h4, h5, h6 {  
+font-family:Helvetica, Verdana, sans-serif;
+}
+
+display:block
+magin 0  can giua
+
+
+
+position relative
+
+position :fixed dung yen
+bo ba can chinh giua
+display:flex
+align-item:center
+justify:content:center
+tu ngang can ra giua
+flex-direction: column;
+align-items: center;
